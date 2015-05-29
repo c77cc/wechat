@@ -20,6 +20,7 @@ type News []Article
 
 type Article struct {
 	ThumbMediaId     string `json:"thumb_media_id"`               // 必须; 图文消息的封面图片素材id（必须是永久mediaID）
+    MediaPath        string `json:"media_path"`
 	Title            string `json:"title"`                        // 必须; 标题
 	Author           string `json:"author,omitempty"`             // 必须; 作者
 	Digest           string `json:"digest,omitempty"`             // 必须; 图文消息的摘要，仅有单图文消息才有摘要，多图文此处为空
