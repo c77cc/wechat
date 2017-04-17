@@ -1,14 +1,14 @@
 // @description wechat 是腾讯微信公众平台 api 的 golang 语言封装
-// @link        https://github.com/chanxuehong/wechat for the canonical source repository
-// @license     https://github.com/chanxuehong/wechat/blob/master/LICENSE
-// @authors     gaowenbin(gaowenbinmarr@gmail.com), chanxuehong(chanxuehong@gmail.com)
+// @link        https://github.com/c77cc/wechat for the canonical source repository
+// @license     https://github.com/c77cc/wechat/blob/master/LICENSE
+// @authors     gaowenbin(gaowenbinmarr@gmail.com), c77cc(c77cc@gmail.com)
 
 package card
 
 import (
 	"errors"
 
-	"github.com/chanxuehong/wechat/mp"
+	"github.com/c77cc/wechat/mp"
 )
 
 type MeetingTicketUpdateUserParameters struct {

@@ -5,8 +5,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/chanxuehong/wechat/corp"
-	"github.com/chanxuehong/wechat/corp/jssdk"
+	"github.com/c77cc/wechat/corp"
+	"github.com/c77cc/wechat/corp/jssdk"
 )
 
 var AccessTokenServer = corp.NewDefaultAccessTokenServer("corpId", "corpSecret", nil)
